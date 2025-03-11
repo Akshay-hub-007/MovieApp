@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# 🎬 Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the **Movie App**, a React Native application built using Expo and powered by Appwrite for backend services. This app fetches movie details from the **TMDB API**, providing users with an interactive and seamless movie browsing experience.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 📌 **Movie Listings** – Browse through a variety of movies with details like title, ratings, and descriptions.
+- 🔎 **Search Functionality** – Find your favorite movies instantly.
+- 🎨 **Smooth UI** – A visually appealing and responsive design.
+- 📡 **Real-time Updates** – Dynamic content fetching using Appwrite and TMDB API.
+- ⚡ **Efficient API Integration** – Optimized API calls for fast loading.
 
-   ```bash
-   npm install
-   ```
+## 📦 Tech Stack
 
-2. Start the app
+- **Frontend:** React Native (Expo)
+- **Backend:** Appwrite
+- **Database:** Appwrite Database
+- **API:** The Movie Database (TMDB) API
 
-   ```bash
-    npx expo start
-   ```
+## 🛠 Installation & Setup
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. Clone the Repository
 ```bash
-npm run reset-project
+git clone https://github.com/Akshay-hub-007/MovieApp.git
+cd MOVIE_APP
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-## Learn more
+### 3. Set Up Environment Variables
+Create a `.env` file in the root directory and add the following:
+```env
+TMDB_API_KEY=your_tmdb_api_key
+APPWRITE_PROJECT_ID=your_appwrite_project_id
+APPWRITE_ENDPOINT=your_appwrite_endpoint
+APP_WRITE=APPWRITE_KEY
+EXPO_APP_WRITE_DATABASE=
+APPWRITE_EXPO_COLLECTION=your_appwrite_endpoint
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. Start the App
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📲 Running on Different Devices
+Once the server starts, you can open the app in:
+- **Development build** ([Guide](https://docs.expo.dev/develop/development-builds/introduction/))
+- **Android Emulator** ([Guide](https://docs.expo.dev/workflow/android-studio-emulator/))
+- **iOS Simulator** ([Guide](https://docs.expo.dev/workflow/ios-simulator/))
+- **Expo Go** ([Download](https://expo.dev/go))
 
-## Join the community
+## 🌐 Live Demo
+Check out the deployed version here: [Movie App](https://expo.dev/accounts/akshay_hub/projects/Movie-app/builds/cd8878ac-949f-499d-8808-3cae3e76d60a)
 
-Join our community of developers creating universal apps.
+## 📚 Learn More
+- [Expo Documentation](https://docs.expo.dev/)
+- [Appwrite Documentation](https://appwrite.io/docs)
+- [TMDB API Docs](https://developer.themoviedb.org/docs)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+## 💬 Connect
+- GitHub: [@Akshay-hub-007](https://github.com/Akshay-hub-007)
+
+Happy Coding! 🎥🚀
+
